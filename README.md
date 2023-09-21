@@ -1,6 +1,5 @@
-# Waterfall
+# Waterfall (but enhanced)
 
-![waterfall mockup preview](assets/preview.png)
 
 ## Description
 Waterfall is a fork of the beautiful [Cascade](https://github.com/andreasgrafen/cascade) custom CSS theme for firefox by [Andreas Grafen](https://andreas.grafen.info). The goal is to make a mouse-centered cascade custom CSS theme.
@@ -8,12 +7,10 @@ Waterfall is a fork of the beautiful [Cascade](https://github.com/andreasgrafen/
 what this theme brings back :
 - window control buttons
 - back button
-- close tab button on hover
 - hamburger menu
 
-## Themes
 
-![dark waterfall theme](assets/previewThemes.png)
+## Themes
 
 Waterfall is available in both dark and light theme. The default theme is dark. To change from dark to light theme, you'll need to comment the those lines in the `userchrome.css` file :
 ```CSS
