@@ -432,3 +432,28 @@ window,
 .identity-color-red       { --identity-tab-color: var(--uc-identity-color-red)       !important; --identity-icon-color: var(--uc-identity-color-red)       !important; }
 .identity-color-pink      { --identity-tab-color: var(--uc-identity-color-pink)      !important; --identity-icon-color: var(--uc-identity-color-pink)      !important; }
 .identity-color-purple    { --identity-tab-color: var(--uc-identity-color-purple)    !important; --identity-icon-color: var(--uc-identity-color-purple)    !important; }
+
+/*  Animation on tab  */
+.tabbrowser-tab:not([pinned]):not([selected]) .tab-icon-image ,.bookmark-item .toolbarbutton-icon{opacity: 0!important; transition: .15s !important; width: 0!important; padding-left: 16px!important}
+.tabbrowser-tab:not([pinned]):hover .tab-icon-image,.bookmark-item:hover .toolbarbutton-icon{opacity: 100!important; transition: .15s !important; display: inline-block!important; width: 16px!important; padding-left: 0!important}
+.tabbrowser-tab:not([hover]) .tab-icon-image,.bookmark-item:not([hover]) .toolbarbutton-icon{padding-left: 0!important}
+
+/*  Removes the annoying rainbow thing from the hamburger  */
+#appMenu-fxa-separator{border-image:none !important;}
+
+/*  Removes the background from the urlbar while not in use  */
+#urlbar:not(:hover):not([breakout][breakout-extend])>#urlbar-background {box-shadow: none!important; background: #0000 !important}
+
+/*  Urlbar popup thing  */
+.urlbarView-row{display: none !important}
+.urlbarView-row:nth-child(1), .urlbarView-row:nth-child(2){display: flex !important}
+.search-panel-one-offs-header.search-panel-header{display: none !important}
+#urlbar-anon-search-settings{margin-inline-start: 0px !important}
+
+/*  Makes the space between the reload button and the urlbar less akwardly large  */
+#urlbar-container{margin-left: 1px !important}
+
+/*  Removes urlbar border/background  */
+#urlbar-background{border: none !important; outline: none !important; transition: .15s !important;}
+
+/* Remove close button*/ .titlebar-buttonbox-container{ display:none } 

@@ -32,7 +32,7 @@ and uncomment those lines :
   - ```layers.acceleration.force-enabled```
   - ```gfx.webrender.all```
   - ```svg.context-properties.content.enabled```
-- Copy the userChrome.css file from this repository to your **chrome** folder. You can find the **chrome** folder here :
+- Copy the userChrome.css and userContent.css file from this repository to your **chrome** folder. You can find the **chrome** folder here :
   - On Linux : ```$HOME/.mozilla/firefox/######.default-release/chrome/```
   - On Windows : ```C:\Users\[USERNAME]\AppData\Roaming\Mozilla\Firefox\Profiles\######.default-release\chrome\```
   - On MacOS : ```Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-release/chrome```
